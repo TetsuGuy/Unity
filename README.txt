@@ -1,0 +1,1 @@
+This repo contains helpful scripts for any game!
