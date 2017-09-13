@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Item-Type
+//Part of inventory package
+//applying/using an item applies these variables to the player
+
 [System.Serializable]
 public class Item : MonoBehaviour {
 	public int nr;

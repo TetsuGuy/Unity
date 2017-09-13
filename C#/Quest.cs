@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Simple Quest Script
+//each Quest is set to a certain number
+//Quest-Items will call invreaseHave() when picked up or similar
+//Part of Quest-Package[Quest, QuestItem, QuestManager]
+
 public class Quest : MonoBehaviour {
 
 	public int Nr;

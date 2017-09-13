@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//This script makes any object with a rigidbody follow the Player Object if the distance is smaller than in
+//the variable dangerZone specified. 
+//NOTE: the Player-GameObject must be called "Player". Otherwise change Line 29 to GameObject.Find("YOUR_NAME_HERE")
+
 public class AI_AngerAndFollow : MonoBehaviour {
 	//Distance to Object that is safe, if crossed, then anger + follow 
 	public float dangerZone;

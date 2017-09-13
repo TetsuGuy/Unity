@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//This Script lets any Gamobject move around on its own
+//The Object requires a rigidbody to work
+//Play with cooldown_max, speed, speedR to set the movement to your preferences
+
 public class AI_MoveAround : MonoBehaviour {
 	public bool isActive;
 	public Vector3 direction;

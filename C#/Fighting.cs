@@ -2,6 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script handles fighting
+
+
+//needs healthscript
+//needs Stats.cs
+
+
+//Explanation:
+//Attach it to Player 
+//If Player collides with EnemyHitbox, they enter a "fight"
+//Reduces Enemys Health a specified amount (int damage) 
+//damage is inflicted very x seconds (x= int cooldown)
+//The Player is fighting if the user clicked the Left Mouse-Button (change accordingly to your preferences)
+
+
 public class Fighting : MonoBehaviour {
 	public int damage;
 	public float cooldown;

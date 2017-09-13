@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class QuestItem : MonoBehaviour {
 
+//Simple Quest-Item Type
+//Set Number to the QuestNr it belongs
+//Part of Quest-Package[Quest, QuestItem, QuestManager]
+
+//is disabled while not every Quest inside [dependingOn] is fulfilled (if you dont want your questitem to depend just leave field empty after attaching)
+//is attached to questitem
+//set destroyable to true if the gameobject shouldnt remain.
+
+	
 	public DialogTrigger trigger;
 	public bool done;
 	public bool destroyable;

@@ -2,6 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script manages all Dialog of an NPC
+//Can be used for normal Dialog, Quests, Etc
+
+//Part of Dialog Pack
+//Not needed if you dont have human characters
+// Attach it to e.g. a NPC 
+// Set distance to player when dialog should be trigger-able
+// Attach all Triggers ("Dialogs") you want them to own
+
+
 public class DialogTriggerOptionA_Human : MonoBehaviour {
 
 	public float distance = 0.0f;

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Part of the Dialog-Package
+//DialogType
+
 [System.Serializable]
 
 public class Dialog {

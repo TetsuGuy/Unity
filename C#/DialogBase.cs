@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Part of the Dialog-Package (all other Dialog___ Scripts are needed for everything to work)
+//Attach it to the Dialog-Text Element you created for your game. Often, that is inside the Main-Canvas
+//It uses old-school letter-by-letter Display and a short SFX that emulates the voice*
+//(*See Game-References: Banjo-Kazooie/Tooie/Yooka-Laylee, Zelda, GoldenSun) 
+
 public class DialogBase : MonoBehaviour {
 
 	public AudioSource sfx;

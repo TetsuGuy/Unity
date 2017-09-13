@@ -3,6 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Handles HEALTH for ANY Object
+//specify health max and if healtbar should 
+//hide automatically (bool autohide)
+//Autohide activates after [displayCooldown] seconds
+//
+//Example: Attach it to any Enemy 
+//Set autohide on and cooldown to 5 seconds
+//If enemy doesnt take damage, the healthbar will hide after 5s
+//Make a canvas and an image, which represent the enemys health
+//Drag/Attach both those things inside the HealthScript
+//Since the player might have a different system, feel free
+//to remove playerHP and the last lines 
+//If enemys HP drops to 0, it automatically destroys the enemy 
+//Game-Object. 
+//The canvas of the enemyhealthbar will always face the player! 
+//That way, it always looks perfectly visible!
+
+
 public class HealthScript : MonoBehaviour {
 
 	public int HEALTHMAX;

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Currently just used to store experience points for the player
+
 public class EnemyScript : MonoBehaviour {
 
 	public int EXP;

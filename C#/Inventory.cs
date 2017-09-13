@@ -3,6 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Part of the Inventory Pack
+//You have to have the following:
+//-a text representing the cursor, that is 
+//the same height as your item-list TextElement
+//I use ">" to make a Text-based cursor and put 
+//it inside the Text.text variable.  [cursor]
+//-a Textbox on your inventory-canvas that has enough room for a description [description]
+//-a textbox that saves the amount of each item (same height as itemlist) [amount]
+//-a textbox that represents your inventory [menu]
+
+//Navigations is handled by WASD
+//As i open the inventory with Esc, updateMenu() will be called to update contents
+//You can add Items, remove (use) Items and apply Items (is called inside the "use" Function)
+//ApplyFunction will applay Item-Values to your character.
 
 public class Inventory : MonoBehaviour {
 

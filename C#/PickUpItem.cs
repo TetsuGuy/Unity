@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Attach to any item that you can pickup
+//Part of trigger-Dialog Package (not needed for dialog to work but doesnt work without dialogpack)
+//if you dont want to message player, you can use it anyway. Just delete trigger.TriggerDialog() and 
+//trigger Variable
+
 public class PickUpItem : MonoBehaviour {
 	
 	public DialogTrigger trigger;

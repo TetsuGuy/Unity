@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Part of the Dialog-Pack
+//Is used to further Dialog between 2 NPCs A and B 
+//Attach it to 1 NPC and set the 2 Triggers
+//When A is done with his/her dialog, B loads new Dialog 
+//When B is done (after A was done), A loads new Dialog
+//And so on, until no new dialog is available. 
+
+
 public class DialogBackNForth : MonoBehaviour {
 
 	public DialogTriggerOptionA_Human a;

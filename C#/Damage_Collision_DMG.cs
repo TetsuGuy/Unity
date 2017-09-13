@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This Skript works together with the HealthSkript in the GitHub Repo. 
+//It is used for collision-damage
+//Example: The Player runs into a fire and takes damage
+//Attach this skript to the fire-object and the health-skript to the player
+//Note: the Player-Object must be called Player. Else you have to change line 29
+
 public class Damage_Collision_DMG : MonoBehaviour {
 
 	public int damage;
